@@ -56,9 +56,12 @@ favoriteThings.book = "Harry Potter";
 
 
 /* 
-Create an empty Object called backPack. Now, create a variable called 'item'
-and set it equal to the string 'firstPocket'. Using bracket notation,
-add a 'firstPocket' key (or property) to backPack, using 'item'.
+Create an empty Object called backPack. 
+
+Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
+
+Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
+
 Set the value of that key to 'chapstick'.
 
 Using dot notation, add another key (or property) to your backPack object
@@ -68,8 +71,10 @@ that is named color, with the value being the color of your backpack.
   //Code here
 var backPack = {};
 var item = "firstPocket";
-backPack['item'] = "chapstick";
-backPack.color = "grey";
+
+backPack[item];
+backPack.item = "chapstick";
+backPack.color = "blue";
 
 
 
@@ -80,7 +85,7 @@ backPack.color = "grey";
 //After you do the above, alert your entire backPack object.
 
   //Code here
-alert(backPack);
+// alert(backPack);
  
 
 /* 
@@ -90,7 +95,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-console.log(backPack);
+// console.log(backPack);
 
 
 
