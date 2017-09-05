@@ -23,7 +23,7 @@ var favoriteThings = {
   food: "pizza",
   person: "my wife Hannah",
   book: "the Hatchet",
-  move: "Harry Potter",
+  movie: "Harry Potter",
   holiday: "christmas"
 
 }
@@ -83,7 +83,7 @@ backPack.color = "grey";
 alert(backPack);
  
 
-/*
+/* 
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console. 
@@ -113,7 +113,8 @@ var user2 = {
 
   //Code Here
 
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
